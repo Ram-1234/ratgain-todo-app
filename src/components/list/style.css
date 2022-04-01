@@ -1,0 +1,47 @@
+/* main container of todo component */
+.listMainContainer {
+  display: flex;
+  text-transform: capitalize;
+  justify-content: center;
+  align-items: center;
+  margin: 2px 0px;
+}
+
+/* todo item title/name */
+.listItemNameContainer {
+  width: 70%;
+  /* border: 1px solid black; */
+}
+
+/* both button done & delete */
+.listButtonsContainer {
+  width: 25%;
+  /* display: flex; */
+  /* border: 1px solid black; */
+}
+
+/* done button style */
+.doneButton {
+  outline: none;
+  border: none;
+  background-color: #80ed99;
+  opacity: 0.8;
+}
+
+/* hover effect on done button */
+.doneButton:hover {
+  opacity: 1;
+}
+
+/* list delete button style */
+.listDeleteButton {
+  border: none;
+  outline: none;
+  background-color: #c81d25;
+  opacity: 0.8;
+}
+
+/* hover effect delete button */
+.listDeleteButton:hover {
+  opacity: 1;
+}

@@ -1,0 +1,46 @@
+/* main container of done component */
+.doneMainContainer {
+  display: flex;
+  text-transform: capitalize;
+  justify-content: center;
+  align-items: center;
+  margin: 2px 0px;
+}
+
+/* item title/name */
+.doneItemNameContainer {
+  width: 70%;
+  /* border: 1px solid black; */
+}
+
+/* buttons todo & delete */
+.doneButtonsContainer {
+  width: 25%;
+  display: flex;
+  /* border: 1px solid black; */
+}
+
+/* todo button style */
+.todoButton {
+  outline: none;
+  border: none;
+  background-color: #80ed99;
+  opacity: 0.8;
+}
+/* todo button hover effect */
+.todoButton:hover {
+  opacity: 1;
+}
+
+/* done delete button style */
+.doneDeleteButton {
+  border: none;
+  outline: none;
+  background-color: #c81d25;
+  opacity: 0.8;
+}
+
+/* done delete button hover */
+.doneDeleteButton:hover {
+  opacity: 1;
+}

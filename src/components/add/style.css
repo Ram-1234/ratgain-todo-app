@@ -1,0 +1,18 @@
+/* main conatainer of add item component */
+.addInputItemConatainer {
+  margin-left: 15px;
+  border: none;
+}
+
+/* input field style */
+.addInputField {
+  outline: none;
+  padding: 6px;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+
+/* add buuton style */
+.addInputButton {
+  /* we can add more for style for add button */
+}

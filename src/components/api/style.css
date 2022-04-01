@@ -1,0 +1,69 @@
+/* main container under this todo and done rendering  */
+.apiConatiner {
+  display: flex;
+  height: auto;
+  /* border: 1px solid red; */
+  padding: 15px 5px;
+  font-family: sans-serif;
+  justify-content: space-around;
+}
+
+/* todo , done container */
+.todoContainer,
+.doneContainer {
+  width: 45%;
+  border: 1px solid purple;
+  padding: 5px;
+  text-align: left;
+  border-radius: 10px;
+}
+
+/* box heading */
+.todoHeading,
+.doneHeading {
+  font: 600 20px Inter, sans-serif;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  margin: 10px 0px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid grey;
+}
+
+/* button style */
+button {
+  margin-left: 5px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-transform: capitalize;
+  font-family: sans-serif;
+}
+
+/* add more item button */
+.addMoreButton {
+  outline: none;
+  border: 1px solid purple;
+  margin-left: 15px;
+}
+
+/* mode container */
+
+.displayMode {
+  /* border: 1px solid red; */
+  background: #4a5859;
+  padding: 10px 0;
+  display: flexr;
+}
+
+.modeButton {
+  background: transparent;
+  border: none;
+  color: white;
+}
+
+.modeButton:hover {
+  background: #e8eddf;
+  border: 1px solid black;
+  color: black;
+  /* transform: scaleX(0.1); */
+}
